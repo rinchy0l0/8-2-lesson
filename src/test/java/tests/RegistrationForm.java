@@ -23,7 +23,7 @@ public class RegistrationForm {
         $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
         $("#firstName").setValue("Karina");
         $("#lastName").setValue("Bardina");
-        $("#userEmail").setValue("bar@mail.ru");
+        $("#userEmail").setValue("bar1@mail.ru");
         $("#genterWrapper").$(byText("Female")).click();
         $("#userNumber").setValue("8929045522");
         $("#dateOfBirthInput").click();
@@ -42,7 +42,7 @@ public class RegistrationForm {
 
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
 
-        $(".table-responsive").shouldHave(text("Karina Bardina"), text("bar@mail.ru"),
+        $(".table-responsive").shouldHave(text("Karina Bardina"), text("bar1@mail.ru"),
                 text("Female"),
                 text("8929045522"), text("16 October,1997"), text("Arts"),
                 text("Music"), text("1.png"), text("NN VV dom 7"), text("NCR Delhi"));
